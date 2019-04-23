@@ -5,12 +5,16 @@ and Tkinter for the GUI.
 To run JTunes, simply navigate to the JTunes project folder using Terminal/Command line
 and execute the command "python3 jtunes.py".
 
-JTunes doesn't come loaded with anything in the Album_Covers and Music_Library folders; however, it comes with metadata for a number of songs and albums in library.txt.
+JTunes doesn't come loaded with anything in the Music_Library and Album_Covers folders; however, it comes with preloaded metadata for a number of songs and albums in library.txt.
 You can download the corresponding Music_Library and Album_Covers from the following Google Drive link: https://drive.google.com/open?id=1o1SIsnO_ugnt-rpXxeJZ0NgwULDwUuzJ
+Just replace the existing Music_Library and Album_Covers folders with the ones you downloaded, and you'll be all set.
 
-Currently we have a system to add your own songs, albums, and artists as well, but it's a bit clunky - full details below.
+In addition to the preloaded songs, currently we have a simple system for the user to add your own songs, albums, and artists. It requires manually adding and editing files in the project folder - full details below.
 We also have a framework in place to add and edit lyrics, copyright, and other info for songs and albums,
 but haven't yet implemented a way to enable this for the user in the GUI.
+
+
+--ADDING NEW SONGS--
 
 Artists, Albums, and Songs are loaded by the MusicLibrary, via information read from library.txt.
 If you've added a new artist, album, or song, you must add the corresponding information into library.txt, to make the MusicLibrary aware of your changes.

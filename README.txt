@@ -13,6 +13,9 @@ In addition to the preloaded songs, currently we have a simple system for the us
 We also have a framework in place to add and edit lyrics, copyright, and other info for songs and albums,
 but haven't yet implemented a way to enable this for the user in the GUI.
 
+TO DO
+Implement a system to edit song info within the GUI, as well as create a more user-friendly way to add new songs and artists.
+
 
 --ADDING NEW SONGS--
 
